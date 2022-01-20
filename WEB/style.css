@@ -1,0 +1,115 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #F5F5F5;
+}
+#bar{
+	background: rgb(1,0,24);
+	background: linear-gradient(90deg, rgba(1,0,24,0.8869748583026961) 31%, rgba(255,255,255,1) 100%); 
+	display: flex;
+	justify-content: center;
+	background-color: #D3D3D3;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	align-items: center;
+}
+#titre{
+	font-family: Helvetica,sans-serif;
+	color: white ;
+	font-size: 50px;
+}
+#logo{
+    width: 200px;
+    height: 120px;
+}
+
+#logo img {
+    width: 100%;
+    height: auto;
+}
+
+#bar2{
+    font-family: Helvetica,sans-serif;
+	padding-left:40EM ;
+	display: flex;
+	row-gap: 100px;
+}
+
+
+ul.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+}
+ul.horizontal li {
+    float: left;
+}
+ul.horizontal li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.horizontal li a:hover:not(.active) {
+    background-color: #000;
+}
+ul.horizontal li a.active {
+    background-color: #686868;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: white;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.products{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 6px;
+    width: 99%;
+}
+
+.break {
+  margin-top: 25px;
+  flex-basis: 100%;
+  height: 0;
+}
+
+#eco {
+    padding: 25px;
+    font-size: 20px;
+    background-color: #C8C8C8 ;
+    font-family: 'Droid Sans',sans-serif;
+}
+
+#ecoText {
+    margin-left: 70px;
+}
